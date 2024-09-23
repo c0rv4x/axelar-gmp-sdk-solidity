@@ -39,17 +39,17 @@ Unit tests can also be run against live networks for integration testing, see [h
 
 ### Development
 
-Check gas usage
+Check gas usage:
 ```bash
 REPORT_GAS=true npm run test
 ```
 
-Check storage layout of contracts.
+Check storage layout of contracts:
 ```bash
 STORAGE_LAYOUT=true npm run check
 ```
 
-Check contract bytecode size
+Check contract bytecode size:
 ```bash
 CHECK_CONTRACT_SIZE=true npm run build
 ```
